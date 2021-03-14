@@ -190,11 +190,6 @@ As you can see, the problem of hard level is not much difficulty, but also so re
 
 For a person who understands binary trees, it won't take long to do exercises of a binary tree. So if you can't or are afraid of working out questions, you can start from the binary tree. The first 10 may be a little uncomfortable. If you do another 20 with the framework, you may have some understanding. If you finish that, and then do any backtracking, dynamic programming or divide-and-conquer topic, you will find that **as long as recursion is involved, it's all a tree problem.**
 
-More examples:
-
-[Dynamic programming](../动态规划系列/动态规划详解进阶.md) said that the problem of collecting changes, the brute-force solution is to traverse an n-tree:
-
-![](../pictures/动态规划详解进阶/5.jpg)
 
 ```python
 def coinChange(coins: List[int], amount: int):
