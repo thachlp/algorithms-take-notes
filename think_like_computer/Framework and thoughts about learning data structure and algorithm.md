@@ -4,13 +4,13 @@ Translator: [ForeverSolar](https://github.com/foreversolar)
 
 Author: [labuladong](https://github.com/labuladong)
 
-This is a revision of a long time ago article "framework thinking of learning data structure and algorithm". This article will cover all the previous contents, and will give many code examples to teach you how to use framework thinking.
+This is a revision of a long time ago article "framework thinking of learning data structure and algorithm". This article will cover all the previous contents, and will give many code examples to show you how to use framework thinking.
 
 First of all, we are talking about common data structures. I am not engaged in algorithm competitions, so I can only solve conventional problems. In addition, the following is a summary of my personal experience. No algorithm book can cover these things, so please try to understand my point of view and don't dwell on the details, because this article hopes to build an overview of framework thinking of data structure and algorithm.
 
 The framework thinking that from the whole to the details, from the top to the bottom and from the abstract to the concrete is universal. We think in this way can be more effective not only in learning data structure and algorithm, but also in learning any other knowledge.
 
-### 1.Storage mode of data structure
+### 1. Storage mode of data structure
 
 **There are only two ways to store data structure: array (sequential storage) and linked list (linked storage)**。
 
@@ -35,7 +35,7 @@ In conclusion, there are many kinds of data structures. Even you can invent your
 Because the elements of the **linked list** are not continuous, but the pointer points to the position of the next element, so there is no expansion of the array; if you know the precursor and the hind drive of an element, the operation pointer can delete the element or insert a new element, with time complexity of O (1). But because the storage space is not continuous, you can't calculate the address of the corresponding element according to an index, so you can't access it randomly; and because each element must store a pointer to the location of the front and back elements, it will consume relatively more storage space.
 
 
-### 2.Basic operation of data structure
+### 2. Basic operation of data structure
 
 For any data structure, its basic operation is no more than traversal + access, and more specific point are: add, delete, search and modify.
 
@@ -112,7 +112,7 @@ N-tree traversal can be extended to graph traversal, because graph is a combinat
 
 **The so-called framework is a trick. No matter add, delete, insert or modify, these codes are never separated from the structure. You can take this structure as the outline and add code on the framework according to specific problems. The following will give specific examples.**
 
-### 3.Guidelines of Algorithm Exercises 
+### 3. Guidelines of Algorithm Exercises 
 
 First of all, it should be clear that **data structure is a tool, and algorithm is a method to solve specific problems through appropriate tools**. That is to say, before learning algorithms, at least we need to understand the common data structures and their characteristics and defects.
 
@@ -263,7 +263,7 @@ This kind of thinking is very important. Sometimes I write the solution accordin
 **This is the power of framework, which can ensure that you can still write the right program even when you are sleepy; even if you can't do anything, you can be a higher level than others.**
 
 
-### 4.Summary
+### 4. Summary
 
 The basic storage mode of data structure is chain and order. The basic operation is to add, delete, search and modify. The traversal mode is nothing but iteration and recursion.
 
